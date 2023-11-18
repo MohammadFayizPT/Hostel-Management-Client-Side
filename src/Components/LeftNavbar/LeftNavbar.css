@@ -1,0 +1,28 @@
+.leftnavbar{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 60vh;
+    background-color: rgb(229, 229, 229);
+    margin: 30px 40px;
+    border: none;
+    border-radius: 25px;
+}
+.leftnavbar div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 20px;
+}
+.leftnavbar div img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.leftnavbar div h2{
+    cursor: pointer;
+}
+.leftnavbar div h2:hover{
+    color: rgb(122, 65, 176);
+    transition-delay: 0.3s;
+}
