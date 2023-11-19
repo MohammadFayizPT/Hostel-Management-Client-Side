@@ -13,7 +13,7 @@ const LeftNavbar = () => {
     <div className='leftnavbar'>
           <div>
              <img src={home_icon} alt="" />
-             <Link to='/' style={{textDecoration:'none', color:'rgb(82, 82, 98)'}}><h2>Home</h2></Link>
+             <Link to='/home' style={{textDecoration:'none', color:'rgb(82, 82, 98)'}}><h2>Home</h2></Link>
           </div>
           <div>
              <img src={student_icon} alt="" />
@@ -33,7 +33,7 @@ const LeftNavbar = () => {
           </div>
           <div>
              <img src={logout_icon} alt="" />
-             <Link to='login' style={{textDecoration:'none', color:'rgb(82, 82, 98)'}}><h2>Logout</h2></Link>
+             <Link to='/' style={{textDecoration:'none', color:'rgb(82, 82, 98)'}}><h2>Logout</h2></Link>
           </div>
     </div>
   )

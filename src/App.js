@@ -13,7 +13,7 @@ function App() {
   const location = useLocation();
 
   // Determine if the current route is the login/signup page
-  const isLoginPage = location.pathname === '/login';
+  const isLoginPage = location.pathname === '/';
 
   return (
     <div className="App">
@@ -21,12 +21,12 @@ function App() {
       <div>
         {!isLoginPage && <LeftNavbar />}
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<LoginSignup />} />
           <Route path='/students' element={<Students />} />
           <Route path='/staffs' element={<Staffs />} />
           <Route path='/rooms' element={<Rooms />} />
           <Route path='/complaints' element={<Complaints />} />
-          <Route path='/login' element={<LoginSignup />} />
+          <Route path='/home' element={<Home />} />
         </Routes>
       </div>
     </div>
