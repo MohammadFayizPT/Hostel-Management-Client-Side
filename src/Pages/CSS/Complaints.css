@@ -1,0 +1,51 @@
+.complaint{
+    display: flex;
+    flex-direction: column;
+}
+.complaint h1{
+    margin-left: 460px;
+    color: rgb(82, 82, 98);
+}
+.row {
+    display: flex ;
+    flex-direction: row;
+    gap: 150px;
+    width: 1050px;
+    height: 10vh;
+    background-color: rgb(229, 229, 229);
+    margin: 30px 40px;
+    border: none;
+    border-radius: 25px;
+   
+  }
+  .row-head {
+    display: flex;
+    gap: 185px;
+    width: 1050px;
+    height: 1vh;
+    margin: 30px 40px;
+    border: none;
+    border-radius: 25px;
+  }
+  
+  .row td {
+    padding: 20px; /* Adjust as needed */
+ 
+  }
+  
+   .td1{
+    text-align: center;
+    
+  }
+  .td2{
+    text-align: right;
+  }
+  .td3{
+    text-align: right;
+  }
+  .td4{
+    text-align: left;
+  }
+  .td5{
+    text-align: left;
+  }
