@@ -9,7 +9,7 @@ const Features = () => {
   useEffect(() => {
     axios.get('/home') // Make a GET request to your backend endpoint
       .then(response => {
-        console.log(response);
+        console.log(response.data);
         setData(response.data); // Set the retrieved data in state
       })
       .catch(error => {

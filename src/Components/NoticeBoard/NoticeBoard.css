@@ -1,0 +1,19 @@
+.noticeboard{
+    padding-top: 50px;
+    margin-left: 120px;
+    background-color: rgb(229, 229, 229);
+    justify-content: center;
+    width: 900px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.noticeboard-child img{
+    width: 650px;
+    height: 550px;
+    padding-bottom: 25px;
+}
