@@ -1,0 +1,21 @@
+.roomdiv{
+    display: flex;
+    flex-direction: column;
+}
+.roomdiv-child{
+    width: 730px;
+    height: 80px;
+    background:  rgb(229, 229, 229);
+    margin-left: 150px;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    gap: 175px;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.roomdiv-child p{
+    padding-left: 60px;
+
+}
