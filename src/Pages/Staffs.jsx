@@ -17,7 +17,7 @@ const StaffDetails = () => {
   }, []);
 
   return (
-    <div className='staffs'>
+    <div className='staff'>
       <h1>Staff Details</h1>
       <div>
         <table>
@@ -43,6 +43,7 @@ const StaffDetails = () => {
       </div>
     </div>
   );
+  
 };
 
 export default StaffDetails;

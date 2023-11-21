@@ -1,15 +1,15 @@
 .staff{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .staff h1{
-  margin-left: 460px;
   color: rgb(82, 82, 98);
 }
 .rowst {
   display: flex ;
   flex-direction: row;
-  gap: 110px;
+  gap: 200px;
   width: 1000px;
   height: 10vh;
   background-color: rgb(229, 229, 229);
@@ -20,9 +20,9 @@
 }
 .row-headst {
   display: flex;
-  gap: 125px;
+  gap: 200px;
   width: 1050px;
-  height: 1vh;
+  height: 2vh;
   margin: 30px 40px;
   border: none;
   border-radius: 25px;
@@ -34,7 +34,7 @@
 }
 
  .td1{
-  text-align: center;
+  text-align: left;
   
 }
 .td2{
@@ -44,8 +44,5 @@
   text-align: right;
 }
 .td4{
-  text-align: left;
-}
-.td5{
-  text-align: left;
+  text-align: right;
 }
