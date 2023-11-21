@@ -6,6 +6,7 @@ import staff_icon from '../Assets/staff.svg'
 import room_icon from '../Assets/room.svg'
 import complaint_icon from '../Assets/complaint.svg'
 import logout_icon from '../Assets/logout.svg'
+import fee_icon from '../Assets/indian-rupee-sign-solid.svg'
 import {Link} from 'react-router-dom'
 
 const LeftNavbar = () => {
@@ -26,6 +27,10 @@ const LeftNavbar = () => {
           <div>
              <img src={room_icon} alt="" />
              <Link to='/rooms' style={{textDecoration:'none', color:'rgb(82, 82, 98)'}}><h2>Rooms</h2></Link>
+          </div>
+          <div>
+             <img src={fee_icon} alt="" />
+             <Link to='/feepayments' style={{textDecoration:'none', color:'rgb(82, 82, 98)'}}><h2>Fees</h2></Link>
           </div>
           <div>
              <img src={complaint_icon} alt="" />

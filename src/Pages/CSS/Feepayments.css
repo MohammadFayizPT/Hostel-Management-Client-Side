@@ -1,16 +1,16 @@
-.complaint{
+.feepayments{
     display: flex;
     flex-direction: column;
 }
-.complaint h1{
+.feepayments h1{
     margin-left: 460px;
     color: rgb(82, 82, 98);
 }
-.row {
+.rowfp {
     display: flex ;
     flex-direction: row;
-    gap: 150px;
-    width: 1050px;
+    gap: 110px;
+    width: 970px;
     height: 10vh;
     background-color: rgb(229, 229, 229);
     margin: 30px 40px;
@@ -18,9 +18,9 @@
     border-radius: 40px;
    
   }
-  .row-head {
+  .row-headfp {
     display: flex;
-    gap: 185px;
+    gap: 125px;
     width: 1050px;
     height: 1vh;
     margin: 30px 40px;
@@ -28,7 +28,7 @@
     border-radius: 25px;
   }
   
-  .row td {
+  .rowfp td {
     padding: 20px; /* Adjust as needed */
  
   }
