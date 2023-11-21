@@ -8,6 +8,7 @@ import Staffs from './Pages/Staffs';
 import Rooms from './Pages/Rooms';
 import Complaints from './Pages/Complaints';
 import LoginSignup from './Pages/LoginSignup';
+import FeePayments from './Pages/FeePayments';
 
 function App() {
   const location = useLocation();
@@ -22,11 +23,12 @@ function App() {
         {!isLoginPage && <LeftNavbar />}
         <Routes>
           <Route path='/' element={<LoginSignup />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/students' element={<Students />} />
           <Route path='/staffs' element={<Staffs />} />
           <Route path='/rooms' element={<Rooms />} />
+          <Route path='/feepayments' element={<FeePayments />} />
           <Route path='/complaints' element={<Complaints />} />
-          <Route path='/home' element={<Home />} />
         </Routes>
       </div>
     </div>
