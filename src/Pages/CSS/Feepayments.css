@@ -10,8 +10,8 @@
 .rowfp {
     display: flex ;
     flex-direction: row;
-    gap: 110px;
-    width: 1000px;
+    gap: 128px;
+    width: 1070px;
     height: 10vh;
     background-color: rgb(229, 229, 229);
     margin: 30px 40px;
@@ -21,11 +21,13 @@
   .row-headfp {
     display: flex;
     gap: 125px;
+    color: rgb(82, 82, 98);
     width: 1050px;
     height: 1vh;
     margin: 30px 40px;
     border: none;
     border-radius: 25px;
+    font-size: 19px;
   }
   
   .rowfp td {

@@ -22,7 +22,7 @@
   }
   .row-head {
     display: flex;
-    gap: 185px;
+    gap: 175px;
     color: rgb(82, 82, 98);
     width: 1050px;
     height: 1vh;
@@ -51,7 +51,7 @@
     text-align: left;
   }
   .td5{
-    text-align: left;
+    text-align: righ;
   }
   .solved{
     color: green;
