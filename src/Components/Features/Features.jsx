@@ -28,11 +28,11 @@ const Features = () => {
          <h2>{data.roomsCount}</h2>
        </div>
        <div>
-         <h2>Number of Students</h2>
+         <h2>No. of Students</h2>
          <h2>{data.studentsCount}</h2>
        </div>
        <div >
-         <h2>Number of Staffs</h2>
+         <h2>No. of Staffs</h2>
          <h2>{data.staffsCount}</h2>
        </div>   
     </div>
