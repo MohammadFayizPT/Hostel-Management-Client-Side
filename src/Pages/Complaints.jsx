@@ -18,7 +18,7 @@ const Complaints = () => {
   return (
     <div className='complaint'>
     
-      <h1>Complaints</h1>
+      <h2> Check Complaints</h2>
      
      <div>
       <table>
@@ -38,7 +38,9 @@ const Complaints = () => {
         <td className='td2'>{complaint.Student_id}</td>
         <td className='td3'>{complaint.Date}</td>
         <td className='td4'>{complaint.Issue}</td>
-        <td className='td5'>{complaint.Status ? "Solved" : "Pending"}</td>
+        <td className={`td5 ${complaint.Status ? 'solved' : 'pending'}`}>
+         {complaint.Status ? 'Solved' : 'Pending'}
+       </td>
       </tr>
     ))}
   </tbody>

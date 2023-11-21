@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
 }
-.feepayments h1{
-    margin-left: 460px;
-    color: rgb(82, 82, 98);
+.feepayments h2{
+  margin-top: 30px;
+  padding-left: 41px;
+  color: rgb(82, 82, 98);
 }
 .rowfp {
     display: flex ;
@@ -16,7 +17,6 @@
     margin: 30px 40px;
     border: none;
     border-radius: 40px;
-   
   }
   .row-headfp {
     display: flex;

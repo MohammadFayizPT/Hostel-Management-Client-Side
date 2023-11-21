@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
 }
-.complaint h1{
-    margin-left: 460px;
+.complaint h2{
+    margin-top: 30px;
+    padding-left: 42px;
     color: rgb(82, 82, 98);
 }
 .row {
@@ -22,6 +23,7 @@
   .row-head {
     display: flex;
     gap: 185px;
+    color: rgb(82, 82, 98);
     width: 1050px;
     height: 1vh;
     margin: 30px 60px;
@@ -50,4 +52,10 @@
   }
   .td5{
     text-align: left;
+  }
+  .solved{
+    color: green;
+  }
+  .pending{
+    color: red;
   }
