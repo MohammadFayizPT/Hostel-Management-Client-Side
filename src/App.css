@@ -1,5 +1,5 @@
 *{
-    font-family: poppins;
+    font-family: var(--font-family-sans);
 }
 .App div{
     display: flex;

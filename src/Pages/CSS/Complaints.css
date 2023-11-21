@@ -9,9 +9,10 @@
 .row {
     display: flex ;
     flex-direction: row;
+    font-size: 17px;
     gap: 150px;
-    width: 1050px;
-    height: 10vh;
+    width: 1100px;
+    height: 12vh;
     background-color: rgb(229, 229, 229);
     margin: 30px 40px;
     border: none;
@@ -23,9 +24,10 @@
     gap: 185px;
     width: 1050px;
     height: 1vh;
-    margin: 30px 40px;
+    margin: 30px 60px;
     border: none;
     border-radius: 25px;
+    font-size: 19px;
   }
   
   .row td {
