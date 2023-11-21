@@ -5,7 +5,7 @@ import './CSS/Students.css'
 const Students = () => {
   return (
     <div className='students'>
-       <h1>Students</h1>
+       <h2>Check Student Details</h2>
        <div className="studentdiv-titles">
          <h3>Adm_no</h3>
          <h3>Name</h3>

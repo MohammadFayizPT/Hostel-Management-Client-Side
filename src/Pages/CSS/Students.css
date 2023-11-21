@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: column;
 }
-.students h1{
+.students h2{
     margin-top: 30px;
-    padding-left: 550px;
+    padding-left: 42px;
     color: rgb(82, 82, 98);
 }
 .studentdiv-titles{
     display: flex;
-    gap: 140px;
+    gap: 90px;
     margin-left: 30px;
+    color: rgb(82, 82, 98);
 }
 .studentdiv-titles h3{
     padding-left: 20px;
