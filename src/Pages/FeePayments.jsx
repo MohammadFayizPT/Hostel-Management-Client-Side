@@ -17,7 +17,7 @@ const FeePayments = () => {
 
   return (
     <div className='feepayments'>
-      <h2>Check Fee Payment Details</h2>
+      <h2>Check Pending Fee Details</h2>
 
       <div>
         <table>
