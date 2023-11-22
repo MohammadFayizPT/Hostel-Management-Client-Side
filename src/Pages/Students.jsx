@@ -2,6 +2,7 @@ import React from 'react'
 import StudentDiv from '../Components/StudentDiv/StudentDiv'
 import './CSS/Students.css'
 import InsertButton from '../Components/InsertButton/InsertButton'
+import { Link } from 'react-router-dom'
 
 const Students = () => {
   return (
@@ -15,7 +16,7 @@ const Students = () => {
          <h3>Contact_no</h3>
        </div>
        <StudentDiv/>
-       <InsertButton content='Students'/>
+       <Link to={'/studentform'}><InsertButton content='Students'/></Link>
     </div>
   )
 }
