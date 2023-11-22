@@ -1,0 +1,18 @@
+.insertbutton{
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+}
+.insertbutton button{
+    background-color:  rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 30px;
+    width: 170px;
+    height: 60px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.insertbutton button:hover{
+    background-color: rgb(122, 65, 176);
+}
