@@ -1,0 +1,23 @@
+.staffdiv{
+  display: flex;
+  flex-direction: column;
+}
+
+.staffdiv-child{
+  width: 850px;
+  height: 80px;
+  background-color: rgb(229, 229, 229);
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+  margin-left: 130px;
+  border: none;
+  border-radius: 40px;
+  font-size: 17px;
+}
+
+.staffdiv-child p{
+  padding-left: 60px;
+  width: 100%; 
+  text-align: left; 
+}
