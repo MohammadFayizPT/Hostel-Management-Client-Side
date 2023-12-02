@@ -9,6 +9,7 @@ import Rooms from './Pages/Rooms';
 import Complaints from './Pages/Complaints';
 import LoginSignup from './Pages/LoginSignup';
 import FeePayments from './Pages/FeePayments';
+import StudentForm from './Pages/StudentForm';
 
 function App() {
   const location = useLocation();
@@ -29,6 +30,7 @@ function App() {
           <Route path='/rooms' element={<Rooms />} />
           <Route path='/feepayments' element={<FeePayments />} />
           <Route path='/complaints' element={<Complaints />} />
+          <Route path='/studentform' element={<StudentForm/>} />
         </Routes>
       </div>
     </div>
