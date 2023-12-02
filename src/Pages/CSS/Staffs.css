@@ -1,0 +1,17 @@
+.staffs{
+  display: flex;
+  flex-direction: column;
+}
+
+.staffs h2{
+  margin-top: 30px;
+  padding-left: 42px;
+  color: rgb(82, 82, 98);
+}
+
+.staffdiv-titles{
+  display: flex;
+  gap: 170px;
+  margin-left: 185px;
+  color: rgb(82, 82, 98);
+}
