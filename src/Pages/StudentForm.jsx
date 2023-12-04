@@ -64,8 +64,8 @@ const StudentForm = () => {
             <option value="Select">Select</option>
             <option value="CS">CS</option>
             <option value="MECH">MECH</option>
-            <option value="">CIVIL</option>
-            <option value="CIVIL">CHEM</option>
+            <option value="CIVIL">CIVIL</option>
+            <option value="CHEM">CHEM</option>
             <option value="ECE">ECE</option>
             <option value="EEE">EEE</option>
           </select>

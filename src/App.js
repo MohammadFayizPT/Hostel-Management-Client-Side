@@ -10,6 +10,7 @@ import Complaints from './Pages/Complaints';
 import LoginSignup from './Pages/LoginSignup';
 import FeePayments from './Pages/FeePayments';
 import StudentForm from './Pages/StudentForm';
+import StaffsForm from './Pages/StaffsForm';
 
 function App() {
   const location = useLocation();
@@ -30,7 +31,8 @@ function App() {
           <Route path='/rooms' element={<Rooms />} />
           <Route path='/feepayments' element={<FeePayments />} />
           <Route path='/complaints' element={<Complaints />} />
-          <Route path='/studentform' element={<StudentForm/>} />
+          <Route path='/studentform' element={<StudentForm/>} /> 
+          <Route path='/stafform' element={<StaffsForm/>} />       
         </Routes>
       </div>
     </div>
