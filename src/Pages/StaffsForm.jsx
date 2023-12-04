@@ -64,7 +64,7 @@ const StaffCreationForm = () => {
         </div>
 
         <input type="text" name='salary' value={staffData.salary} onChange={handleChange} placeholder='Salary' />
-        <button type='submit'>Create Staff</button>
+        <button type='submit'>Add</button>
       </form>
     </div>
   );

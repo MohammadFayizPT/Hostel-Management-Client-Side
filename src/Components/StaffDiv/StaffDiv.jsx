@@ -23,7 +23,7 @@ const StaffDiv = () => {
         <p>{e.Staff_id}</p>
         <p>{e.Name}</p>
         <p>{e.Type}</p>
-        <p>{e.Salary}</p>
+        <p>Rs {e.Salary}</p>
      </div>
       ))}
     </div>
