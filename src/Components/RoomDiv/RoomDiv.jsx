@@ -21,7 +21,7 @@ export const RoomDiv = () => {
          <div key={e.Room_id} className="roomdiv-child">
          <p>{e.Room_id}</p>
          <p>{e.No_of_Students}</p>
-         <p>{e.Is_Vacant ? "Not Full" : "Full"}</p>
+         <p className={e.Is_Vacant ? 'notfull' : 'full'}>{e.Is_Vacant ? "Not Full" : "Full"}</p>
        </div>
      ))
         }

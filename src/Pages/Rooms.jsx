@@ -12,8 +12,7 @@ const Rooms = () => {
           <h3>No. of Students</h3>
           <h3>Status</h3>
        </div>
-
-        <RoomDiv/>
+       <RoomDiv/>
     </div>
   )
 }

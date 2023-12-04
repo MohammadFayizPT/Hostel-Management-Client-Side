@@ -17,5 +17,12 @@
 
 .roomdiv-child p{
     padding-left: 60px;
+}
 
+.notfull{
+    color: green;
+}
+
+.full{
+    color: red;
 }

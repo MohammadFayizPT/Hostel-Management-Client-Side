@@ -20,9 +20,10 @@
     border-radius: 40px;
    
   }
+
   .row-head {
     display: flex;
-    gap: 175px;
+    gap: 180px;
     color: rgb(82, 82, 98);
     width: 1050px;
     height: 1vh;
@@ -31,10 +32,9 @@
     border-radius: 25px;
     font-size: 19px;
   }
-  
+
   .row td {
-    padding: 20px; /* Adjust as needed */
- 
+    padding: 21px; /* Adjust as needed */
   }
   
    .td1{
@@ -42,16 +42,16 @@
     
   }
   .td2{
-    text-align: right;
+    text-align: left;
   }
   .td3{
-    text-align: right;
+    text-align: left;
   }
   .td4{
     text-align: left;
   }
   .td5{
-    text-align: right;
+    text-align: left;
   }
   .solved{
     color: green;
