@@ -1,6 +1,8 @@
 import React from 'react';
 import './CSS/Staffs.css'; // Import the CSS file
 import StaffDiv from '../Components/StaffDiv/StaffDiv'; // Import the StaffDiv component if it's in a separate file
+import InsertButton from '../Components/InsertButton/InsertButton'
+import { Link } from 'react-router-dom'
 
 const Staffs = () => {
   return (
@@ -13,6 +15,7 @@ const Staffs = () => {
           <h3>Salary</h3>
         </div>
         <StaffDiv />
+        <Link to={'/stafform'}><InsertButton content='staff'/></Link>
       </div>
   );
 };
