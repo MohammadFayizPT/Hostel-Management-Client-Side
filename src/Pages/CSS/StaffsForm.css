@@ -14,7 +14,7 @@
     flex-direction: column;
     gap: 20px;
     margin-left: 360px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .staff-creation-form-child input {
@@ -33,7 +33,7 @@
 .staff-creation-form-child button {
     width: 150px;
     height: 40px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 130px;
     font-weight: 700;
     font-size: large;

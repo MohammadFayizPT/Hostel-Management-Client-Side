@@ -4,7 +4,7 @@ import axios from '../axios'
 import backendURL from '../Constants/constants'
 
 const StudentForm = () => {
-  const [formData, setFormData] = useState({
+  const initialFormData = {
     admissionNo: '',
     name: '',
     department: 'Select',
@@ -12,7 +12,8 @@ const StudentForm = () => {
     roomNo: '',
     phoneNo: '',
     place: ''
-  });
+  };
+  const [formData, setFormData] = useState(initialFormData);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,10 +36,13 @@ const StudentForm = () => {
   
           if (response.status === 200) {
             // Data submitted successfully
+            alert('Students added successfully');
+            setFormData(initialFormData);
             console.log('Data submitted successfully');
             // You can reset the form here if needed
           } else {
             // Handle errors if any
+            alert('Failed to add student');
             console.error('Error occurred while submitting data');
           }
         } catch (error) {

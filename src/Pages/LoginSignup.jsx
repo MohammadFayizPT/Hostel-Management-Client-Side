@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './CSS/LoginSignup.css';
 
 const LoginSignup = () => {
@@ -10,14 +10,14 @@ const LoginSignup = () => {
   const handleLogin = () => {
     // Perform your authentication logic here
     // For simplicity, let's assume a valid email and password for demonstration
-    const isValidUser = email === 'example@email.com' && password === 'password123';
+    const isValidUser = email === 'example@gmail.com' && password === 'password123';
 
     if (isValidUser) {
       // Redirect to the home page if the credentials are valid
       navigate('/home');
     } else {
       // Handle authentication failure (e.g., show an error message)
-      if (email !== 'example@email.com') {
+      if (email !== 'example@gmail.com') {
         alert('Invalid username');
       }
       else if (password !== 'password123'){
@@ -51,8 +51,6 @@ const LoginSignup = () => {
         <button type="button" onClick={handleLogin}>
           Submit
         </button>
-        <p>Don't have an account?</p>
-        <Link to="/signup">Signup</Link>
       </div>
     </div>
   );

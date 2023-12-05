@@ -3,12 +3,13 @@ import axios from '../axios';
 import backendURL from '../Constants/constants'; 
 import './CSS/StaffsForm.css'
 const StaffCreationForm = () => {
-  const [staffData, setStaffData] = useState({
+  const initialStaffsData = {
     staff_id: '',
     name: '',
     type: 'Select',
     salary: ''
-  });
+  };
+  const [staffData, setStaffData] = useState(initialStaffsData);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -29,12 +30,16 @@ const StaffCreationForm = () => {
         });
 
         if (response.status === 200) {
+          alert('Staffs added successfully');
+          setStaffData(initialStaffsData);
           console.log(' Staff data submitted successfully');
           
         } else {
+          alert('Failed to add staff');
           console.error('Error occurred while submitting staff data');
         }
       } catch (error) {
+        alert('Failed to add staff');
         console.error('Error occurred while submitting staff data:', error);
       }
     } else {
