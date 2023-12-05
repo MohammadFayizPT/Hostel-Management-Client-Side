@@ -10,7 +10,7 @@ const Header = () => {
         </div>
         <div className="header-right">
          <img src={hostel_logo} alt="" />
-         <h1>XYZ Hostel</h1>
+         <h1>Jubilee Hostel</h1>
         </div>
     </div>
   )

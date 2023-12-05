@@ -13,10 +13,8 @@ const LoginSignup = () => {
     const isValidUser = email === 'example@gmail.com' && password === 'password123';
 
     if (isValidUser) {
-      // Redirect to the home page if the credentials are valid
       navigate('/home');
     } else {
-      // Handle authentication failure (e.g., show an error message)
       if (email !== 'example@gmail.com') {
         alert('Invalid username');
       }
