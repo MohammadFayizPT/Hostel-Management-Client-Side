@@ -46,6 +46,7 @@ const StudentForm = () => {
             console.error('Error occurred while submitting data');
           }
         } catch (error) {
+          alert('Failed to add student');
           console.error('Error occurred while submitting data:', error);
         }
       } else {
