@@ -10,15 +10,15 @@ const LoginSignup = () => {
   const handleLogin = () => {
     // Perform your authentication logic here
     // For simplicity, let's assume a valid email and password for demonstration
-    const isValidUser = email === 'example@gmail.com' && password === 'password123';
+    const isValidUser = email === 'admin@gmail.com' && password === 'Admin@123';
 
     if (isValidUser) {
       navigate('/home');
     } else {
-      if (email !== 'example@gmail.com') {
+      if (email !== 'admin@gmail.com') {
         alert('Invalid username');
       }
-      else if (password !== 'password123'){
+      else if (password !== 'Admin@123'){
         alert('Invalid password');
       }
       
